@@ -9,7 +9,7 @@ files=glob.glob("*.json")
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]=files[0];
 
 # Set the project_id with your project ID
-project_id="savvy-pad-448520-i8";
+project_id="xxx"; #hidden for confidentiality
 topic_name = "carLocation";   
 subscription_id = "carLocation-sub";
 
